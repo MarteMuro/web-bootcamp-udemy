@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms demo test</h1>
+    <form action="/tacos" > 
+        <p>
+        <label for="username">Enter a Username</label>
+        <input id="username" type="text" placeholder="username" name="username">
+         </p>
+        <p>
+        <label for="password">Enter a Password:</label>
+        <input id="password" type="password"placeholder="password"  name="password">
+          </p>
+        <p>
+            <label for="color">Choose a color</label>
+        <input id="color" type="color"placeholder="color" name="colorC">
+          </p>
+          <p>
+            <label for="number">Enter a Number:</label>
+        <input id="number" type="number" placeholder=" Enter a number" name="numberC">
+          </p>
+          <button>Submit</button>
+     
+    </form>
+    <hr>
+    <!--- this is a wey cool to use google as serch engine-->
+   <!---- <button>Serch in google</button> -->
+   <h2>hijacking searches engines</h2>
+    <h3>Search Google</h3>
+    <form action ="https://www.google.com/search">
+        <input type="text" name="q">
+        <button >Search google</button>
+    </form>
+    <h3>Serch Youtube</h3>
+    <form action="https://www.youtube.com/results?search_query">
+        <input type ="text" name="search_query">
+        <button>Serch Youtube</button>
+    </form>
+     <!-- Another from  with checkbox-->
+     <h2>More input types check box</h2>
+     <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>  
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="s" value="zs">
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="m" value="zm">
+            <label for="l">Large</label>
+            <input type="radio" name="size" id="l" value="zl">
+        </p>
+        <p>
+            <label for="shipping">--Please select  a shipping--</label>
+            <select name="shipping" id="shipping">
+                <option value="">Select shipping option</option>
+                <option value="dhl">DHL</option>
+                <option value="fedex">Fedex</option>
+                <option value="inter">International</option>
+            </select>
+        </p>
+        <p>
+            <label for="price">Price range</label>
+            <input type="range" name="price" id="price" min="10" max="80" step="2">
+        </p>
+        <p>
+            <label for="request">Any special comannd?</label>
+            <br>
+            <textarea name="request" id="request" rows="3" cols="20" placeholder="tell us..." value=""></textarea>
+
+        </p>
+        <button>Submit</button>
+ 
+     </form>
+    <h2>Validations demo</h2>
+    <form action="/dummy">
+        <label for="first" >Enter First Name</label>
+        <input typer="text" name="first" id="first" required >
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="usernme" name="username" minlength="5" maxlength="10" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
