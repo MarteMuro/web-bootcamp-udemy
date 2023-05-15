@@ -7,6 +7,45 @@
     <title>Marathon form registration</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>Race Registration!</h1>
+    <form action="/forms">
+    <p>
+        <label for="firstname">First Name</label>
+        <input id="firstname" type="text" placeholder="Name" name="name">
+        
+        <label for="lastname">Last Name</label>
+        <input id="lastname" type="text" placeholder="lastname" name="lastname">
+    </p>
+    <p>
+       <h2>Select a Race:</h2> 
+        <br>
+       <input id="funrun" type="radio"  name="select" value="FR5k">
+       <Label for="funrun">Fun Run 5k</Label>
+       <br>
+       <input id="halfm" type="radio"  name="select" value="halfMara">
+       <Label for="Halfm">Half Marathon</Label>
+       <br>
+       <input id="fulmarathon" type="radio"  name="select" value="fulmara">
+       <Label for="fulmarathon">Full Marathon</Label>
+    </p>
+    <p>
+        <label for="mail">Email</label>
+        <input id="mail" type="email" placeholder="user@" name="email" required>
+        <label for="pass">Password</label>
+        <input id="pass" type="password" placeholder="password" name="passw" required>
+    </p>
+    <p>
+    <label for="selectgrp">Select Age  Group</label>
+    <select id="selectgrp" name="selector">
+        <option value="u18">Under 18</option>
+        <option value="18-30">18-30</option>
+        <option value="30-50">30-50</option>
+        <option value="50+">50+</option>
+    </select>
+    </p>
+    <p>
+        <button>Register!</button>
+    </p>
+  </form>
 </body>
 </html>
