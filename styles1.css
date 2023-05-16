@@ -1,10 +1,10 @@
 h1 {
-    color:#00ff00;
-    background-color: blueviolet;
+    color:#06f7ba;
+    background-color: #f707b7;
 }
 h2{
-    color:blue;
-    background-color: aqua;
+    color:white;
+    background-color:rgb(7, 31, 252);
 }
 
 button {
@@ -18,4 +18,7 @@ p {
 }
 div {
     color: blue;
+}
+body{
+    background-color: #ddd0f5;
 }
