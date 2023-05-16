@@ -1,14 +1,23 @@
 h1 {
     text-align: center;
-   font-weight: bold;
+   font-weight: 700;
    text-decoration: wavy underline; ;
-   text-decoration-color: rgb(245, 4, 4) ;
-   text-decoration-thickness: 10px ;
+   text-decoration-color: rgb(193, 245, 4) ;
+   text-decoration-thickness: 4px ;
    letter-spacing: 8px;
+   font-size: 50px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a{
     text-decoration: rgb(252, 3, 239) underline;
 }
 p {
     line-height: 1.2;
+}
+hr {
+   background: rgba(208, 243, 9, 0.808);
+   height: 10px;
+   
+   border-top: 4px blue;
+   border-style: solid;
 }
