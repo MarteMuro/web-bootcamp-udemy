@@ -1,0 +1,21 @@
+h1 {
+    color:#00ff00;
+    background-color: blueviolet;
+}
+h2{
+    color:blue;
+    background-color: aqua;
+}
+
+button {
+    color:magenta;
+    background-color: bisque;
+
+}
+p {
+    color:wheat;
+    background:black;
+}
+div {
+    color: blue;
+}
