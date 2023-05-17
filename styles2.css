@@ -39,3 +39,17 @@ hr {
 .tag {
     color: rgb(125, 9, 233);
 }
+
+p + h3 {
+    background-color: rgb(123, 231, 22);
+}
+
+div > ul >li>ul>li {
+    background-color: aqua;
+}
+input[type="text" ] {
+    color:rgb(61, 10, 202);
+}
+button:hover {
+    background-color: rgb(255, 0, 128);
+}
