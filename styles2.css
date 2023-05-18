@@ -51,5 +51,12 @@ input[type="text" ] {
     color:rgb(61, 10, 202);
 }
 button:hover {
-    background-color: rgb(255, 0, 128);
+    background-color: rgb(8, 241, 47);
+}
+a:hover {
+    text-decoration:overline;
+}
+
+p:nth-of-type(3n) {
+    background-color: blueviolet;
 }
