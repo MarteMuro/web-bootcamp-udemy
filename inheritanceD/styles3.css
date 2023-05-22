@@ -1,0 +1,17 @@
+body {
+    color:rgb(47, 0, 255);
+}
+section {
+    color:blueviolet
+}
+form {
+    color:brown;
+}
+button {
+    color:inherit;
+}
+/* cuando se herdan  va en casdsada de nivel por ej
+body le pasa el color a los elementos pero
+si section esta le pasa la prodieda a las que estan en section
+form le pasa  a sus elemento pero button le ponemos que lo herede de form
+si no hubuera form se lo heredada de section  y asi */

@@ -60,3 +60,11 @@ a:hover {
 p:nth-of-type(3n) {
     background-color: blueviolet;
 }
+h1::first-letter {
+    font-size: 50px;
+    color: blue;
+}
+p::first-letter {
+    color: purple;
+    font-size: 25px;
+}
