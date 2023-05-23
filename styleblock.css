@@ -20,3 +20,7 @@ border: black;
 display:inline-block;
 margin: 50px;
 }
+p {
+    background-color: aqua;
+    width: 20px;;
+}
