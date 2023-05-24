@@ -1,0 +1,19 @@
+section {
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+#rgba {
+    width: 50%;
+    height: 60%;
+    background-color: #14a7eb25;/* aqui se agrego la opacdad en los ultimos 2 valores hex */
+}
+
+#opacity {
+
+    width: 50%;
+    height: 60%;
+    background-color:yellowgreen;
+    opacity: 0.5;/* this trsansparent the content  the entire element div*/
+}
+}
