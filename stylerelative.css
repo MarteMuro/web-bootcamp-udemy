@@ -1,0 +1,29 @@
+section{
+    background-color: bisque;
+    width: 300px;
+    height: 250px;
+}
+div {
+    background-color:#9a8c98 ;
+    width: 150px;
+    height: 100px;
+}
+h2{
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+article {
+    font-size: 16px;
+}
+p{
+    font-size: 1.1em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em ;
+    border-radius: 0.5em;
+    background-color: #219ebc;
+}
