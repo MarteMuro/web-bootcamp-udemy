@@ -8,22 +8,34 @@ div {
     width: 150px;
     height: 100px;
 }
-h2{
+#ems h2{
     font-size: 2em;
 }
-h3 {
+#ems h3 {
     font-size: 1.5em;
 }
-article {
+#ems article {
     font-size: 16px;
 }
-p{
+#ems p{
     font-size: 1.1em;
 }
 
-button {
+#ems button {
     font-size: 1em;
     padding: 0 1em ;
     border-radius: 0.5em;
     background-color: #219ebc;
 }
+
+#ems ul {
+    font-size: 1.3em;
+}
+hr {
+    color: #219ebc;
+    height: 5px;
+    border-style: solid;
+    background-color: black;
+}
+
+/*  Aqui viene los selectors de meidias en REMS*/
