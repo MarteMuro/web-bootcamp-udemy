@@ -8,6 +8,8 @@ div {
     width: 150px;
     height: 100px;
 }
+/*los ems se usan con el tamaño relativo a su parent puedes notar en casacda
+de los ul va camiado por que estan nested un ul del otyro*/
 #ems h2{
     font-size: 2em;
 }
@@ -38,4 +40,20 @@ hr {
     background-color: black;
 }
 
-/*  Aqui viene los selectors de meidias en REMS*/
+/*  Aqui viene los selectors de meidias en REMS esta se usa siendo a consideracion la mdia root
+por ehemlo html {
+    fonts-size 20px;
+    ]
+    toma de referncia que el html tiene 20 pix y los que tengann meida en rems van a hacerse mas chioa
+    */
+
+
+#rems h2 {
+    font-size: 3rem;
+}
+<#rems h3 {
+    font-size: 2rem;
+}
+#rems button {
+    font-size: 1.3rem;
+}
