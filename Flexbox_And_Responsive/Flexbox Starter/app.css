@@ -10,5 +10,32 @@ h1 {
     height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /*flex-wrap: wrap;    estese ua para hacer una interceccion y te alinea en otra linea*/
+    /*ete tambien es como el wrap hace un segundo eje vertical para linearlo*/
+    align-items:baseline ;
 }
-
+#container div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 4em;
+}
+main {
+    width:80%;
+    margin: 0 auto;
+    border:5px solid black;
+    height:500px;
+    display:flex;
+}
+main .sidebar {
+    background-color: blueviolet;
+    border: 2px solid white;
+    flex:1 2 300px;
+}
+main .maincontent {
+    background-color: aquamarine;
+    flex:2 1 600px;
+}
