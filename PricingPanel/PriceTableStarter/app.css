@@ -11,7 +11,7 @@ body {
     min-height: 100vh ;
 }
 .panel {
-    background-color: beige;
+    background-color: rgb(213, 237, 245);
     border-radius: 10px;
     padding: 15px 25px ;
     width: 100%;
@@ -22,5 +22,75 @@ body {
     text-transform: uppercase;
 }
 .pricing-plan {
-    border-bottom: 2px solid #e1f1ff;
+    border-bottom: 1px solid #8aee07;
+}
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+.pricing-img {
+    margin-bottom: 25px;
+    max-width:100% ;
+}
+.pricing-header {
+    color:#888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.pricing-features {
+    margin: 50px 0 25px;
+    color:#016ff9;
+}
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0  ;
+    border-top: 1px solid #e1f1ff;
+}
+.pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+.pricing-price {
+    color:#016ff9;
+    display: block;
+    font-size: 32px ;
+    font-weight: 700;
+
+}
+.pricing-button {
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display:inline-block;
+    padding: 15px 35px ;
+    text-decoration:none ;
+    margin:25px 0;
+    transition: background-color 400ms ease-in-out;
+}
+.pricing-button:hover, .pricing-button:focus {
+       background-color:#e1f1ff ;
+}
+.pricing-button.is-featured {
+    background-color:#48aaff ;
+    color:whitesmoke;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+    background-color:#629aff;
+    color:whitesmoke;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid  #cbee07;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+    }
 }
