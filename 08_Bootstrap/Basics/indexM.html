@@ -11,17 +11,77 @@
     </head>
 <body>
     <div class="container">
-    <h1 class="display-1 text-center text-primary"> Starting with Bootstrap </h1>
-    <h2 class="display-3 text-right text-secondary"  >Display-3 from bootstrap</h2>
+    <h1 class="display-1 text-center text-primary bg-light border-bottom border-primary"> Starting with Bootstrap </h1>
+    <div class="row">
+        <div class="col-6 bg-primary text-white-90">I am 6 units</div>
+        <div class="col-6 bg-secondary text-white-90">I am 6 units</div>
+    </div>
+    <div class="row">
+        <div class="col-4 bg-dark text-white-50">I am 4 units</div>
+        <div class="col-8 bg-info text-white-90">I am 8 units</div>
+    </div>
+    <div class="row">
+        <div class="col bg-dark text-white-50">I am autosize</div>
+        <div class="col bg-info text-white-90">I am autosize</div>
+    </div>
+    <h2 class="display-3 text-right text-secondary "  ><span class="badge badge-pill bg-light border-bottom">Display-3</span> from bootstrap</h2>
+    <h2 class="display-4 align-items-center">Responsive grid section</h2>
+    <div class="row">
+        <div class="col-md-6 col-xl-3 bg-info align-items-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere harum, odit porro vero repellat dolorum explicabo consequatur
+           voluptas numquam at corrupti? Optio, consequatur vero dolor corporis asperiores veniam quam!
+        </div>
+        <div class="col-md-6 col-xl-3 bg-secondary align-items-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere harum, odit porro vero repellat dolorum explicabo consequatur
+             voluptas numquam at corrupti? Optio, consequatur vero dolor corporis asperiores veniam quam!
+          </div>
+          <div class="col-md-6 col-xl-3 bg-secondary align-items-end">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere harum, odit porro vero repellat dolorum explicabo consequatur
+             voluptas numquam at corrupti? Optio, consequatur vero dolor corporis asperiores veniam quam!
+          </div>
+    </div>
+    <br>
+    <div class="row">
+         <div class="col-xl-4 col-md-6">
+           <img  class="img-fluid" src="https://images.unsplash.com/photo-1575396565846-19fe83e261bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80" alt="moto1">
+           </div>
+         <div class="col-xl-4 col-md-6">
+            <img  class="img-fluid" src="https://images.unsplash.com/photo-1508987387448-da90f527534c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1130&q=80" alt="moto2">
+        </div>
+        <div class="col-xl-4 col-md-6">
+             <img  class="img-fluid" src="https://images.unsplash.com/photo-1542550546-88afdd84b64f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80" alt="moto3">
+            </div>
+    </div>
+    <br>
+    <h3> Justify Content</h3>
+    <div class="row border justify-content-center justify-content-lg-start">
+         <div class="col-4 bg-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odit illum officiis earum unde atque fugit nisi
+                 voluptates ut incidunt excepturi nihil quod ipsum ab, impedit voluptas exercitationem illo quidem!
+         </div>
+         <div class="col-4 bg-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odit illum officiis earum unde atque fugit nisi
+             voluptates ut incidunt excepturi nihil quod ipsum ab, impedit voluptas exercitationem illo quidem!
+     </div>
+    </div>
+    <h4 class="h3 bg-dark text-center text-info text-sm-left">Group of buttons</h3>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Good</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-success">Excelent</button>
+      </div>
+
     <p class="lead"><span class="border-bottom">Lorem  ipsum dolor sit amet consectetur</span>, adipisicing elit. Fugit, ut, hic odio eum minima commodi a veniam 
     provident magni repellat necessitatibus laudantium. Explicabo nesciunt fuga nihil adipisci. Nobis, perspiciatis quidem?</p>
     <button type="button" class="btn btn-dark btn-sm">Click to watch</button>
     </div>
+
     <div class="container-sm">
     <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, ut, hic odio eum minima commodi a veniam 
     provident magni repellat necessitatibus laudantium. Explicabo nesciunt fuga nihil adipisci. Nobis, perspiciatis quidem?</p>
-    <footer class="blockquote-footer">Mister lorem text quote</footer>
+    <footer class="blockquote-footer bg-infos border border-4 border-primary">Mister lorem text quote</footer>
      </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
