@@ -45,8 +45,10 @@ body {
 }
 .content {
     margin-top: 100px;
+    margin-bottom: 300px;
 }
 /* aqui se hace un a referencia para cambiar de color el navbar usando un script de JS*/
 .navbar.scrolled {
     background-color: rgb(195, 247, 8);
+    transition: background 500ms ;
 }
