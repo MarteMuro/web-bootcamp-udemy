@@ -5,6 +5,7 @@ app.set('view engine', 'ejs');
 
 app.get('/' , (req,res) => {
     res.send("hi")
+    res.render('home')
 })
 
 app.listen(3000, () => {
