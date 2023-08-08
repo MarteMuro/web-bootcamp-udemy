@@ -1,0 +1,17 @@
+
+<%-include('partials/head') %> 
+<body>
+    <%-include('partials/navbar') %> 
+    <h1>Random </h1>
+
+   
+    <p> Here youre random numer: <%=  rand  %> </p>
+    <%  if(rand % 2 === 0) {%>
+        <h2> This is Even number</h2>
+    <% } else { %>
+        <h2> This is a Odd Numner</h2>
+    <% }  %>
+    
+    
+   </body>
+</html>
