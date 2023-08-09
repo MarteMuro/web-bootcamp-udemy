@@ -9,6 +9,7 @@ app.use(express.json()) // to recived data in JSON form
 // tambien usas la const path 
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs' )
+
 // esto hzio un array de coments 
 const comments = [
     {
@@ -26,22 +27,34 @@ const comments = [
     {
         username:'Onlysayswoo',
         comment: 'woof wooof!'
-    },
-    
+    }
+];
+
+// termina el array
+
+// aqui esribo los app.XXX
 app.get('/comments', (req,res) => {
-    res.render('comments/index')
+    res.render('comments/index', {comments})
 })
 
+app.get('/comments/new', (req,res) => {
+    res.render('comments/new');
+} )
+app.post('/comments',(req,res)  => {
+    const { username, comment} = req.body;
+    comments.push({username, comment});
+    res.redirect('/comments');
+})
 
 app.get('/tacos', (req,res) => {
-    res.send("GET /tacos respone")
+   res.send("GET /tacos respone")
 })
 
 app.post('/tacos', (req,res) => {
-    const {meat, qty} = req.body;
+   const {meat, qty} = req.body;
     res.send(`OK, here youre order:${meat} ${qty}`)
 })
 
 app.listen(3000, () => {
     console.log('On port 3000!')
-})
+});

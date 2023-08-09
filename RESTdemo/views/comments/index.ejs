@@ -3,12 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viweport" content="width=device-width, initial-scale= 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     
     <title>Comments Index</title>
     </head>
 <body>
     <h1>Comments</h1>
-    
+    <ul>
+        <% for( let c of comments) {%>
+            <li><%=c.comment%> -- <b><%=c.username%></b>  </li>
+        <%}%>
+    </ul>
+    <a href="/comments/new">add comment</a>
    </body>
 </html>
